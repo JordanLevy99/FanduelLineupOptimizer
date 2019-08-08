@@ -15,8 +15,7 @@ import datetime
 import os, errno
 import csv
 
-
-data_dir = '/Users/jordanlevy/Documents/GitHub/NBA_Scripts/Solver/Data' ## CHANGE THIS FOR EACH USER
+data_dir = '/Users/jordanlevy/Documents/GitHub/FanduelLineupOptimizer/Data' ### TODO CHANGE THIS FOR EACH USER
 
 ### TODO CHANGE CODE TO AUTOMATE FINDING PATHS TO FILES
 pd.set_option('display.width', 1000)
