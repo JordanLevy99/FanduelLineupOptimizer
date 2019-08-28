@@ -41,7 +41,7 @@ def scrape_data(html, filename):
         player_stats = html.findAll(attrs={'class': "rgt-col"})  # .findAll(attrs={'class':'player-popup'})
         # print("Number of columns: ", len(player_stats))
         # players_df['Salaries'] =
-        columns = ['Name', 'Salaries', 'Team', 'Position', 'Opponent', 'Projected Minues', '', '', '', '', '', 'DvP',
+        columns = ['Name', 'Salaries', 'Team', 'Position', 'Opponent', 'Projected Minutes', '', '', '', '', '', 'DvP',
                    'DvPRank', 'O/U', 'Line', 'Total', 'Movement', '', '', '', '', 'Ceiling', 'Floor', 'Projection',
                    'Pts/$/K']
         # dtypes = ['', 'int', 'object', 'object', 'object', 'object', 'object', 'object', 'object', 'object', 'object', 'object', 'int', 'float', 'float', 'float', 'float','object','object','object','object','float','float','float','float']
@@ -82,7 +82,7 @@ def download_page(driver, url, filename):
 
 
 def download_projections():
-    # Start of season was 10-17-2018 and end of regular season ws 4-12-2019
+    # Start of season was 10-17-2018 and end of regular season was 4-12-2019
     start_date = '10-16-2018'  # Start date of the 2018-19 NBA Season
     end_date = '10-17-2018'  # End date of the 2018-19 NBA Regular Season
 
