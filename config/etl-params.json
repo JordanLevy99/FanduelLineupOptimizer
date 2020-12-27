@@ -1,0 +1,10 @@
+{
+  "download_chromedriver": false,
+  "download_roto": false,
+  "get_dates": false,
+  "start_year": 2016,
+  "end_year": 2021,
+  "update":true,
+  "update_player_info":false,
+  "update_boxscores":false
+}

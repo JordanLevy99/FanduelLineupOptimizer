@@ -1,0 +1,8 @@
+#TODOS
+# src/etl.py
+### TODO: update_boxscores should be combined with the generic update parameter
+### TODO: make sure that total_dates starts at the latest date in the roto_html directory when update=True
+### TODO: fix update method for boxscores, currently is appending when it should be updating, maybe execute a sql insert if update=True instead of boxscore.to_sql
+
+# src/dash_interface.py
+### TODO: create buttons for updating / creating database
